@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HasGossip - Best Celebrity Magazine & Gossip & News Page in Kadir Has </title>
+  <div id="banner">
+    <h1>HasGossip</h1>
+  </div>
+  
+  
+  <style>
+
+    body {
+      margin: 0;
+      background-color: #eaeaea;
+      text-align: center;
+  }
+    .container 
+   {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+   }
+
+
+   .box 
+   {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+   }
+
+   h1 
+   {
+    text-align: center;
+   }
+
+   h2 
+   {
+    text-align: center;
+   } 
+
+   #banner
+   {
+    background-color: rgb(40, 40, 40);
+    height: 60px;
+    font-size: 25px;
+    color: white;
+   }
+
+   #box1
+   {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    float: left;
+    position: relative;
+    background-image: url('beauty.png');
+    background-size: cover;
+   }
+   
+
+   #box1:hover #beauty
+   {
+    top: 0;
+    backdrop-filter: blur(3px);
+   }
+   
+   #beauty
+   {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    
+   }
+
+   #box2
+   {
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    background-image: url('fashion.png');
+    background-size: cover;
+   }
+
+   #box2:hover #fashion
+   {
+    top: 0;
+    backdrop-filter: blur(3px);
+   }
+   
+   #fashion
+   {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+   }
+
+   #box3
+   {
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: right;
+    background-image: url('gossip.png');
+    background-size: 300px 300px;
+   }
+
+   #box3:hover #gossip
+   {
+    top: 0;
+    backdrop-filter: blur(3px);
+   }
+   
+   #gossip
+   {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+   }
+
+   a 
+   {
+    position: relative;
+    display:inline-block;
+    width:300px;
+    height:275px;
+   }
+
+   a:link
+   {
+     text-decoration: none;
+   }
+
+   a:visited
+   {
+     text-decoration: none;
+     color: rgb(253, 253, 253)
+   }
+
+   a:hover
+   {
+     text-decoration: none;
+   }
+
+   a:active
+   {
+     text-decoration: none;
+     color: rgb(255, 255, 255)
+   }
+
+   #backtotop
+   {
+    background-image: url('backtotop.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    float: right;
+
+
+   }
+
+   footer
+   {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   }
+
+  </style>
+  
+  <h2> Best Celebrity Magazine & Gossip & News Page in Kadir Has </h2>
+</head>
+<body>
+
+
+
+
+  <div class="container">
+    <div class="box" id="box1">
+        <div id="beauty">
+            <h2 style="font-size: 60px;"><a href="beauty1.html"> Beauty </a></h2>
+            <div id="celebContainer">
+              
+            </div>
+          </div>
+
+    </div>
+    <div class="box" id="box2">
+        <div id="fashion">
+            <h2 style="font-size: 60px;"> <a href="fashion1.html"> Fashion </a></h2>
+            <div id="fashionContainer">
+              
+            </div>
+          </div>
+    </div>
+    <div class="box" id="box3">
+        <div id="gossip">
+            <h2 style="font-size: 60px;"> <a href="gossip1.html"> Gossip </a></h2>
+            <div id="gossipContainer">
+              
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+<footer>
+  <br><br><br><br><br><br><br><br>
+  <h1>ABOUT US</h1>
+  <div>
+      <h2>Main Page: Emirhan Yıldırım</h2>
+      <h2>Beauty Page: Buse Göksever</h2>
+      <h2>Fashion Page: Semih Öner</h2>
+      <h2>Gossip Page: Selen Kuşdoğan</h2>
+      <h2>Styling: Arda Öztürk</h2>
+
+
+  </div>
+  <div id="backtotop">
+      
+      <a href="#"></a>
+  </div>
+</footer>
+</html>
